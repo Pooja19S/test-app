@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pooja19S_test_app_1721805717307-push-trigger-input-set
+  identifier: Build_Pooja19S_test_app_1721805717307pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Pooja19S_test_app_1721805717307
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
