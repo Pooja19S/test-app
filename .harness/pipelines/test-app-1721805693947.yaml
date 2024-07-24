@@ -35,6 +35,6 @@ pipeline:
             spec: {}
         type: CI
         delegateSelectors:
-          - docker-delegate
+          - docker-delegate-new
   delegateSelectors:
     - docker-delegate
