@@ -36,6 +36,7 @@ pipeline:
         type: CI
         delegateSelectors:
           - docker-delegate-new
+          - linux-arm64
   delegateSelectors:
     - docker-delegate-new
   allowStageExecutions: true
