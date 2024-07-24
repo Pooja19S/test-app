@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pooja19S_test_app_1721805717307-pr-trigger-input-set
+  identifier: Build_Pooja19S_test_app_1721805717307prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Pooja19S_test_app_1721805717307
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
