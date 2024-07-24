@@ -37,4 +37,5 @@ pipeline:
         delegateSelectors:
           - docker-delegate-new
   delegateSelectors:
-    - docker-delegate
+    - docker-delegate-new
+  allowStageExecutions: true
